@@ -1,26 +1,26 @@
 class Collective < Formula
   desc "Searchable directory of developer commands with TUI and flashcards"
   homepage "https://github.com/xooxoxxo/collective"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/xooxoxxo/collective/releases/download/v0.3.0/collective-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bcdd82352f546a580a9c371bacd2760878963111b2a1a03250d09b07a56f652f"
+      url "https://github.com/xooxoxxo/collective/releases/download/v0.3.1/collective-0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "b62b46c456f62bc779c38625aa7451393787ff29317439805fd34f49441d1647"
     else
-      url "https://github.com/xooxoxxo/collective/releases/download/v0.3.0/collective-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "80289fd098d7e23a26c4e2d5077ac5d232c670edcc7f4c8082b87b0114c6ec96"
+      url "https://github.com/xooxoxxo/collective/releases/download/v0.3.1/collective-0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c9f82a6582612e9043407b8ef7b971bfba9147be48441b05241ad40b2ef1d26e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/xooxoxxo/collective/releases/download/v0.3.0/collective-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0137253b93c3a9787b634a252d2858e96d74f9e78aef08f4a4b8b73e0716b8a0"
+      url "https://github.com/xooxoxxo/collective/releases/download/v0.3.1/collective-0.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "880dbdfd3795897076657130483573fc79db1c584e09f294e7909b6c0ac63cf1"
     else
-      url "https://github.com/xooxoxxo/collective/releases/download/v0.3.0/collective-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "14bfdde20e1b2dac91c2e7c4ae13bfd578372af93ff2f366cd27ab156d309464"
+      url "https://github.com/xooxoxxo/collective/releases/download/v0.3.1/collective-0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7fc40c022b0778494acc21bbf80941514d02443a55bfd126c009c2499a89b639"
     end
   end
 
